@@ -1,7 +1,6 @@
 body {
   font-family: sans-serif;
-  background-image: url('concrete_wall.png');
-  color: white;
+  background-color: whitesmoke;
 }
 
 ul {
@@ -21,7 +20,7 @@ img {
   height: 10%;
 }
 .button_nav {
-  background-color: white;
+  background-color: whitesmoke;
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
