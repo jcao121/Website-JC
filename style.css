@@ -14,7 +14,6 @@ li {
   margin-right: 20px;
 }
 
-
 .button_nav {
   background-color: whitesmoke;
   border: none;
@@ -27,10 +26,8 @@ li {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  border:2px solid #000000
-
+  border: 2px solid #000000;
 }
-
 
 h1 {
   font-family: "Hubballi", cursive;
@@ -44,10 +41,9 @@ h1 {
 .button_nav span {
   position: relative;
   transition: 0.5s;
-
 }
 .button_nav span::after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -73,7 +69,7 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.holdingcontainer{
+.holdingcontainer {
   width: 100%;
   display: flex;
   background: yellow;
@@ -81,25 +77,20 @@ h1 {
   flex-direction: row;
 }
 
-.internalcontainerL{
+.internalcontainerL {
   flex: 1;
   background: whitesmoke;
   padding: 30px;
-  
 }
 
-
-.internalcontainerR{
+.internalcontainerR {
   flex: 1;
   background: whitesmoke;
   padding: 30px;
-  
 }
 
-@media screen and (max-width: 768px){
-  .holdingcontainer{
+@media screen and (max-width: 768px) {
+  .holdingcontainer {
     flex-direction: column;
   }
-  
-
 }
