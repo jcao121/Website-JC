@@ -14,11 +14,7 @@ li {
   margin-right: 20px;
 }
 
-img {
-  width: 20%;
-  max-width: 100%;
-  height: 10%;
-}
+
 .button_nav {
   background-color: whitesmoke;
   border: none;
@@ -34,8 +30,6 @@ img {
   border:2px solid #000000
 
 }
-
-
 
 
 h1 {
@@ -70,11 +64,42 @@ h1 {
   right: 0;
 }
 
-.center {
+.center_nav {
   margin: 0;
   position: absolute;
   top: 5%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.holdingcontainer{
+  width: 100%;
+  display: flex;
+  background: yellow;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.internalcontainerL{
+  flex: 1;
+  background: whitesmoke;
+  padding: 30px;
+  
+}
+
+
+.internalcontainerR{
+  flex: 1;
+  background: whitesmoke;
+  padding: 30px;
+  
+}
+
+@media screen and (max-width: 768px){
+  .holdingcontainer{
+    flex-direction: column;
+  }
+  
+
 }
